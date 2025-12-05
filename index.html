@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takumi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+    <div class="container">
+        <div class="hero-content">
+            
+            <div class="hero-left">
+                <div class="logo-wrapper">
+                    <img src="Logo_Png.png" alt="Takumi Logo" class="main-logo">
+                </div>
+                <p class="slogan">Wir haben das<br>Glück erfunden</p>
+            </div>
+
+            <div class="hero-right">
+                <p class="about-title">Обо мне.</p>
+                
+                <div class="bio-text">
+                    <p>
+                        Меня зовут Такуми. Не так давно начал вести более открытые сотрудничества в сфере "диджитл". В основном работал в студиях и компаниях. Но, как показывает практика, большая часть навыков развивается тогда, когда ты работаешь на себя. И в этом году я решил начать собственный путь. Да, опыт в 3 года не велик, но я старательно и упорно достигаю новых вершин, расширяю горизонт своих возможностей и изучаю новые технологии.
+                    </p>
+                    <p>
+                        Вследствие того, что я принял решение о смене своей стратегии, мне пришлось подвергнуть ревизии своё портфолио и исключить из него те работы, которые не соответствовали моим новым критериям. Однако я осознаю, что не все готовы принять такой подход, поэтому я намерен предложить альтернативный пакет услуг. В основе моего предложения лежат принципы доступности и простоты, или, как выразился мой наставник, «Стиль и качество».
+                    </p>
+                </div>
+
+                <div class="social-buttons">
+    
+    <a href="tel:+996555725755" class="btn btn-green">
+        <svg class="icon" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M452.2,417.5v-55.9c-43.9-6.4-86.8-20.7-126.6-42.8l-52,52c-1.2-.7-2.5-1.4-3.7-2.1-28.1-16.1-54.6-36.1-78.6-60.1-24-24-44-50.4-60.1-78.6-.7-1.2-1.4-2.5-2.1-3.7l52-52c-22.1-39.7-36.4-82.7-42.8-126.6h-55.9s-33.3,0-33.3,0c-3.8,43.2,0,87,11.3,129.2,16.3,60.9,48.4,118.5,96.2,166.3,47.8,47.8,105.3,79.9,166.3,96.2,42.2,11.3,86,15,129.2,11.3v-33.3Z"/>
+        </svg>
+        0 555 725 755
+    </a>
+
+    <a href="https://instagram.com/takumi_3000" class="btn btn-purple">
+        <svg class="icon" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M357.8,54.3h-215.5c-49.8,0-90.2,40.4-90.2,90.2v215.5c0,49.8,40.4,90.2,90.2,90.2h215.5c49.8,0,90.2-40.4,90.2-90.2v-215.5c0-49.8-40.4-90.2-90.2-90.2ZM405,361.4c0,25.3-20.5,45.8-45.8,45.8h-218.4c-25.3,0-45.8-20.5-45.8-45.8v-218.4c0-25.3,20.5-45.8,45.8-45.8h218.4c25.3,0,45.8,20.5,45.8,45.8v218.4Z"/>
+            <rect fill="currentColor" x="176.1" y="178.3" width="147.8" height="147.8" rx="73.9" ry="73.9"/>
+            <rect fill="currentColor" x="319.1" y="140.1" width="42.9" height="42.9" rx="21.5" ry="21.5"/>
+        </svg>
+        takumi_3000
+    </a>
+
+    <a href="https://t.me/takumiart" class="btn btn-blue">
+        <svg class="icon" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M487,78.8l-70.9,351.1c-4,19.7-27.2,28.5-43.2,16.2l-107.5-82.1-63.4,60c-4.9,4.6-13,.8-12.4-6l8.3-103.5,201.9-185.3c5-4.6-.5-12-6.2-8.4l-260.5,167.7-110.9-40.7c-12.9-4.7-13-22.8-.2-27.7L457.7,54.1c16.1-6.2,32.7,7.9,29.3,24.8Z"/>
+        </svg>
+        takumiart
+    </a>
+
+</div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+    <section class="portfolio">
+    <div class="container">
+        
+        <div class="portfolio-header">
+            <h2>ПОРТФОЛИО</h2>
+        </div>
+
+        <p class="nda-text">*NDA не был нарушен или не являлся предметом обсуждения</p>
+        
+<div class="grid">
+    
+    <div class="card" onclick="openModal('modal-vfx')">
+        <div class="card-visual">
+            <div class="card-bg"></div> <div class="img-box">       <img src="assets/vfx.png" alt="VFX Design">
+            </div>
+        </div>
+        <h3>VFX DESIGN</h3>
+    </div>
+
+    <div class="card" onclick="openModal('modal-motion')">
+        <div class="card-visual">
+            <div class="card-bg"></div>
+            <div class="img-box">
+                <img src="assets/motion.png" alt="Motion Design">
+            </div>
+        </div>
+        <h3>MOTION DESIGN</h3>
+    </div>
+
+    <div class="card" onclick="openModal('modal-graphic')">
+        <div class="card-visual">
+            <div class="card-bg"></div>
+            <div class="img-box">
+                <img src="assets/graphic.png" alt="Graphic Design">
+            </div>
+        </div>
+        <h3>GRAPHIC DESIGN</h3>
+    </div>
+
+    <div class="card" onclick="openModal('modal-cg')">
+        <div class="card-visual">
+            <div class="card-bg"></div>
+            <div class="img-box">
+                <img src="assets/cg.png" alt="CG and 3D">
+            </div>
+        </div>
+        <h3>CG and 3D</h3>
+    </div>
+
+    <div class="card" onclick="openModal('modal-music')">
+        <div class="card-visual">
+            <div class="card-bg"></div>
+            <div class="img-box">
+                <img src="assets/music.png" alt="Music Visualisation">
+            </div>
+        </div>
+        <h3>MUSIC VISUAL</h3>
+    </div>
+
+    <div class="card" onclick="openModal('modal-video')">
+        <div class="card-visual">
+            <div class="card-bg"></div>
+            <div class="img-box">
+                <img src="assets/video.png" alt="Videographic">
+            </div>
+        </div>
+        <h3>VIDEOGRAPHIC</h3>
+    </div>
+
+</div>
+        
+        <div class="container footer-actions">
+             <a href="#" class="big-btn green">ПОЗВОНИТЬ</a>
+             <div class="row">
+                 <a href="#" class="big-btn purple">СЛЕДИТЬ</a>
+                 <a href="#" class="big-btn blue">ПОСМОТРЕТЬ</a>
+             </div>
+        </div>
+    </section>
+
+    <div id="modal-vfx" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-vfx')">&times;</span>
+            <h2>Мои VFX работы</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ТВОЙ_ID_ВИДЕО" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p>Описание проекта...</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
