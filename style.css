@@ -217,8 +217,11 @@ body {
 /* --- СЕТКА --- */
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    grid-template-columns: repeat(3, 1fr); /* Оставляем 3 колонки */
+    
+    /* БЫЛО: gap: 40px; */
+    gap: 100px; /* СТАЛО: Большое расстояние между карточками */
+    
     margin-bottom: 50px;
 }
 
@@ -312,4 +315,5 @@ body {
     .card-visual {
         padding-bottom: 65%; /* Чуть ниже высота на телефоне */
     }
+
 }
